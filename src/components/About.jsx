@@ -3,7 +3,7 @@ import { CheckCircle2, ArrowRight } from 'lucide-react';
 
 const About = () => {
     // Using one of the uploaded images
-    const imageSrc = "/images/WhoIAM.png"; 
+    const imageSrc = `${import.meta.env.BASE_URL}images/WhoIAM.png`;
 
   return (
     <section id="about" className="relative py-20 overflow-hidden md:py-28 bg-dark">

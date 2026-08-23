@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 z-10 bg-gradient-to-b from-dark/70 via-dark/50 to-dark"></div>
         <img 
-          src="/images/hero.jpg" 
+          src={`${import.meta.env.BASE_URL}images/hero.jpg`} 
           alt="Fitness Background" 
           className="object-cover object-center w-full h-full"
         />

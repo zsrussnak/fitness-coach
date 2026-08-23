@@ -3,9 +3,9 @@ import React from 'react';
 const Services = () => {
     // Reusing images for demonstration
     const images = [
-        { src: "/images/biceps_curl.jpg", title: "Body Building", subtitle: "Litora torquent per conubia nostra" },
-        { src: "/images/fitness_class.jpg", title: "Fitness Class", subtitle: "Litora torquent per conubia nostra" },
-        { src: "/images/group_training.jpg", title: "Group Training", subtitle: "Litora torquent per conubia nostra" }, // Fallback to layout as placeholder
+        { src: `${import.meta.env.BASE_URL}images/biceps_curl.jpg`, title: "Body Building", subtitle: "Litora torquent per conubia nostra" },
+        { src: `${import.meta.env.BASE_URL}images/fitness_class.jpg`, title: "Fitness Class", subtitle: "Litora torquent per conubia nostra" },
+        { src: `${import.meta.env.BASE_URL}images/group_training.jpg`, title: "Group Training", subtitle: "Litora torquent per conubia nostra" },
     ];
 
   return (
